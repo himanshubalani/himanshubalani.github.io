@@ -3929,13 +3929,25 @@ input, select, textarea {
 		position: relative;
 		
 	}
+	.soclink.center {
+		border: 5px solid #FFFF00;
+		display: flex;
+		justify-content: center;
+		}
 
 	nav{
 		display: flex;
 		align-items:center;
 		justify-content: right;
 	}
-
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {
+		nav{
+			display: flex;
+			align-items:center;
+			justify-content: center;
+		}
+	}
 	nav-links{
 		padding: 2px 0;
 	}
@@ -3962,9 +3974,10 @@ input, select, textarea {
 
 	ul.nav-links > li {
 		display: inline-block;
+		justify-content: center;
 		line-height: 1;
-		margin-left: 1.5em;
-		padding: 0 0 0 1.5em;
+		margin-left: 1em;
+		padding: 0 0 0 1em;
 	}
 
 	ul.nav-links > li:first-child {
