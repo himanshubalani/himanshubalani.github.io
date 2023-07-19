@@ -1,36 +1,59 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-  <head>
-    <title>Site Maintenance</title>
-    <meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-    <style>
-      body { text-align: center; padding: 20px; font: 20px Helvetica, sans-serif; color: #efe8e8; }
-      @media (min-width: 768px){
-        body{ padding-top: 150px; }
-      }
-      h1 { color: #64ffda; font-size: 50px; }
-      article { display: block; text-align: left; max-width: 650px; margin: 0 auto; }
-      a { color: #64ffda; text-decoration: none; }
-      a:hover { color: #efe8e8; text-decoration: none; }
-    </style>
-  </head>
-  <body bgcolor="2e2929">
-    <article>
-        <h1>I&rsquo;ll be back soon!</h1>
-        <div>
-            <p>Sorry for the inconvenience but I am performing some maintenance at the moment. If you need to you can always <a href="mailto:himanshubalaniworks@gmail.com#">contact me</a>, otherwise I&rsquo;ll be back online shortly!</p>
-            <p>&mdash; himanshubalani</p>
-            <nav>
-              <ul type="none" class="nav-links">
-                <li><a href="https://twitter.com/himanshubalani5" class="icon brands fa-twitter"><span class="actions"></span></a></li>
-                <li><a href="https://github.com/himanshubalani" class="icon brands fa-github"><span class="actions"></span></a></li>
-                <li><a href="https://www.linkedin.com/in/himanshubalani/" class="icon brands fa-linkedin-in"><span class="actions"></span></a></li>
-              </ul>
-            </nav>
-        </div>
-    </article>
-  </body>
+<head>
+  <!--
+    If you are serving your web app in a path other than the root, change the
+    href value below to reflect the base path you are serving from.
+
+    The path provided below has to start and end with a slash "/" in order for
+    it to work correctly.
+
+    For more details:
+    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+
+    This is a placeholder for base href that will be replaced by the value of
+    the `--base-href` argument provided to `flutter build`.
+  -->
+  <base href="/">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="A new Flutter project.">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="portfolio">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <title>portfolio</title>
+  <link rel="manifest" href="manifest.json">
+
+  <script>
+    // The value below is injected by flutter build, do not touch.
+    var serviceWorkerVersion = '2945819095';
+  </script>
+  <!-- This script adds the flutter initialization JS code -->
+  <script src="flutter.js" defer></script>
+</head>
+<body>
+  <script>
+    window.addEventListener('load', function(ev) {
+      // Download main.dart.js
+      _flutter.loader.loadEntrypoint({
+        serviceWorker: {
+          serviceWorkerVersion: serviceWorkerVersion,
+        },
+        onEntrypointLoaded: function(engineInitializer) {
+          engineInitializer.initializeEngine().then(function(appRunner) {
+            appRunner.runApp();
+          });
+        }
+      });
+    });
+  </script>
+</body>
 </html>
