@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <!--
     If you are serving your web app in a path other than the root, change the
@@ -17,7 +17,7 @@
 
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
-  <meta name="description" content="A new Flutter project.">
+  <meta name="description" content="Himanshu Balani's Portfolio Website.">
 
   <!-- iOS meta tags & icons -->
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -26,36 +26,62 @@
   <link rel="apple-touch-icon" href="icons/Icon-192.png">
 
   <!-- Favicon -->
-  <link rel="icon" type="image/png" href="favicon.png"/>
-
-  <!-- Open Graph Meta Tag for Image -->
-  <meta property="og:image" content="https://github.com/himanshubalani/nameheaders/blob/main/Twitter%20Banner%20new.png?raw=true" />
+  <link rel="icon" type="image/png" href="favicon.webp"/>
 
   <title>Himanshu Balani's Portfolio Website</title>
   <link rel="manifest" href="manifest.json">
 
   <script>
     // The value below is injected by flutter build, do not touch.
-    const serviceWorkerVersion = "1763734821";
+    const serviceWorkerVersion = "2909536964";
   </script>
   <!-- This script adds the flutter initialization JS code -->
   <script src="flutter.js" defer></script>
 </head>
 <body>
+<style>
+  body {
+    background-color: #90A8ED;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+  }
+
+  .main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #90A8ED;
+    height: 100vh;
+    width: 100vw;
+    transition: opacity 0.5s ease-out;
+  }
+</style>
   <script>
+    function delay(time) {
+      return new Promise(resolve => setTimeout(resolve, time));
+    }
+
+
     window.addEventListener('load', function(ev) {
+      var loaderContent = document.querySelector('#loader-content');
       // Download main.dart.js
       _flutter.loader.loadEntrypoint({
         serviceWorker: {
           serviceWorkerVersion: serviceWorkerVersion,
         },
         onEntrypointLoaded: function(engineInitializer) {
-          engineInitializer.initializeEngine().then(function(appRunner) {
-            appRunner.runApp();
+          engineInitializer.initializeEngine().then(async function(appRunner) {
+            loaderContent.style.opacity = "0";
+            await delay(400);
+            await appRunner.runApp();
           });
         }
       });
     });
   </script>
+  <div class= "main-content" id="loader-content">
+  <img src="favicon.webp" alt="hb" width="107vw" height=100vh style="max-width: 107px; max-height: 100px;">
+  </div>
 </body>
 </html>
