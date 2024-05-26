@@ -1,26 +1,27 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://himanshubalani.com/</loc>
-    <lastmod>2024-05-25</lastmod>
-  </url>
-  <url>
-    <loc>https://himanshubalani.com/#/about</loc>
-    <lastmod>2024-05-25</lastmod>
-  </url>
-  <url>
-    <loc>https://himanshubalani.com/#/projects</loc>
-    <lastmod>2024-05-25</lastmod>
-  </url>
-  <url>
-    <loc>https://himanshubalani.com/#/contact</loc>
-    <lastmod>2024-05-25</lastmod>
-  </url>
-  <url>
-    <loc>https://himanshubalani.com/404.html</loc>
-    <lastmod>2024-05-25</lastmod>
-  </url>
-  <url>
-    <loc>https://himanshubalani.com/sitemap.xml</loc>
-    <lastmod>2024-05-26</lastmod>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!--  created with Free Online Sitemap Generator www.xml-sitemaps.com  -->
+<url>
+<loc>https://www.himanshubalani.com/</loc>
+<lastmod>2024-05-26T02:29:08+00:00</lastmod>
+</url>
+<url>
+  <loc>https://himanshubalani.com/#/about</loc>
+  <lastmod>2024-05-26T02:29:08+00:00</lastmod>
+</url>
+<url>
+  <loc>https://himanshubalani.com/#/projects</loc>
+  <lastmod>2024-05-26T02:29:08+00:00</lastmod>
+</url>
+<url>
+  <loc>https://himanshubalani.com/#/contact</loc>
+  <lastmod>2024-05-26T02:29:08+00:00</lastmod>
+</url>
+<url>
+  <loc>https://himanshubalani.com/404.html</loc>
+  <lastmod>2024-05-26T02:29:08+00:00</lastmod>
+</url>
+<url>
+  <loc>https://himanshubalani.com/sitemap.xml</loc>
+  <lastmod>2024-05-26T02:29:08+00:00</lastmod>
+</url>
 </urlset>
