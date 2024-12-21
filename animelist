@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+    <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+    <meta name="description" content="Himanshu Balani's Anime List">
+    <meta name="image" property="og:image" content="https://raw.githubusercontent.com/himanshubalani/nameheaders/main/Anime%20Banner.png">
+
+    <!-- Twitter metatags -->
+    <meta name="twitter:card" content="https://raw.githubusercontent.com/himanshubalani/nameheaders/main/Anime%20Banner.png">
+    <meta name="twitter:site" content="@himanshubalani5">
+    <meta name="twitter:creator" content="@himanshubalani5">
+    <meta name="twitter:title" content="Redirect to Himanshu's Anime List">
+    <meta name="twitter:description" content="Himanshu Balani's Anime List">
+    <meta name="twitter:image" content="https://raw.githubusercontent.com/himanshubalani/nameheaders/main/Anime%20Banner.png">
+
+    <!-- iOS meta tags & icons -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="portfolio">
+    <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="favicon.webp">
+
+    <link rel="manifest" href="manifest.json">
+
+    <title>Redirecting to anime list...</title>
+   <meta http-equiv="refresh" content="0; url=https://docs.google.com/spreadsheets/d/1Og43xwrf4jYreEcfoLTnda77Ar_GVaBSbDArxTguhXk/edit?usp=sharing">
+    <script type="text/javascript">
+        window.location.href = "https://docs.google.com/spreadsheets/d/1Og43xwrf4jYreEcfoLTnda77Ar_GVaBSbDArxTguhXk/edit?usp=sharing"
+    </script>
+</head>
+<body>
+If you are not redirected automatically, follow this <a href='https://docs.google.com/spreadsheets/d/1Og43xwrf4jYreEcfoLTnda77Ar_GVaBSbDArxTguhXk/edit?usp=sharing'>link to the anime list</a>.
+</body>
+</html>
