@@ -1,0 +1,129 @@
+
+/* Navbar styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background-color: #fdfdfd;
+}
+
+
+
+#navbar {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: left;
+    padding: 0px;
+    gap: 0px;
+    height: 60px;
+    background: #FAFAFA;
+    border-top: 4px solid #250C31;
+    border-bottom: 4px solid #250C31;
+}
+
+/* Navbar text and links */
+#navbar .navbar-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* Logo or main text */
+#navbar .navbar-container .logo {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    color: #000000;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+/* Navigation links */
+#navbar .navbar-container .nav-links {
+    display: flex;
+    flex-direction: row;
+    gap: 0px;
+}
+
+.nav-links .link-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 20px;
+    gap: 0px;
+    background: #FAFAFA;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #000000;
+    font-family: "Montserrat", serif;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 27px;
+    transition: background 0.3s ease;
+}
+
+.nav-links .link-box:hover {
+    background: #f0f0f0;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px;
+}
+
+.card {
+    box-sizing: border-box;
+    width: 250px;
+    background: hsla(10, 60.00%, 98.00%, 0.97);
+    border: 3px solid #250C31;
+    border-radius: 12px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-bottom: 5px solid #250C31;
+}
+
+.title {
+    margin-top: 0px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    color: #000;
+    padding: 10px;
+}
+
+.tabs {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+.tab {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    background: #FAFAFA;
+    border-top: 4px solid #250C31;
+    border-bottom: 4px solid #250C31;
+}
+.tab:hover {
+    background-color: #e0e0e0;
+}
