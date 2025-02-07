@@ -5,10 +5,14 @@
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "description": "Himanshu's Portfolio Website",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
+        { 
+            "src": "/favicon.ico",
+            "type": "image/x-icon",
+            "sizes": "16x16 32x32" },
         {
             "src": "icons/Icon-192.png",
             "sizes": "192x192",
