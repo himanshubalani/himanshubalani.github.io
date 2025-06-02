@@ -68039,7 +68039,7 @@ r.toString
 r=A.c9(r).x
 if(r==null){r=self.window.devicePixelRatio
 if(r===0)r=1}s=s.bR(0,r).a<=900?$.a3().c9(12):$.a3().c9(4)
-return A.bg("I'm Himanshu Balani, a Computer Science graduate from Jhulelal Institute of Technology, Nagpur. I love building random tools that help my work. My most recent job was to write SEO ranking content for ToolJet, where I did a dive deep into working with their platform and wrote over 10 blogs for them. I \"try\" to maintain a personal blog where I share what I learn along the way too. Feel free to check it out! I also love interacting with folks and have been a speaker 4 times. Things I enjoy: astronomy, physics, computers and finding out how things work under the hood. If you're into building cool things or just want to chat about tech, please reach out!",q,q,q,q,q,q,q,A.bk(q,q,B.h,q,q,q,q,q,A.X8().d,q,q,s,q,q,B.l,q,1.8,!0,q,q,q,q,q,q,q,q),B.aX,q,q)},
+return A.bg("I'm Himanshu Balani, a Computer Science graduate from Nagpur, India. I love building random tools that help my work. My most recent job was to write SEO ranking content for ToolJet, where I did a dive deep into working with their platform and wrote over 10 blogs for them. I \"try\" to maintain a personal blog where I share what I learn along the way too. Feel free to check it out! I also love interacting with folks and have been a speaker 4 times. Things I enjoy: astronomy, physics, computers and finding out how things work under the hood. If you're into building cool things or just want to chat about tech, please reach out!",q,q,q,q,q,q,q,A.bk(q,q,B.h,q,q,q,q,q,A.X8().d,q,q,s,q,q,B.l,q,1.8,!0,q,q,q,q,q,q,q,q),B.aX,q,q)},
 $S:432}
 A.FG.prototype={
 I(a){var s,r,q
