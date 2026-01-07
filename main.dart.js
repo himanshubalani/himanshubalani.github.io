@@ -68742,7 +68742,7 @@ A.CG.prototype={
 J(a){var s=null,r=B.c.cB($.W().bE(10),5,12)
 return new A.qs(A.Iy(s,s,A.iS().$1$fontWeight(B.t).d,!1),new A.tm(A.c2(s,A.eT(A.c([A.bt("\xa9",s,s,s,s,s,s,s,A.bc(s,s,B.j,s,s,s,s,s,s,s,s,r,s,s,s,s,s,!0,s,s,s,s,s,s,s,s),s,s,s),A.bt(B.h.k(A.amx(new A.h4(Date.now(),0,!1))),s,s,s,s,s,s,s,A.bc(s,s,B.j,s,s,s,s,s,s,s,s,r,s,s,s,s,s,!0,s,s,s,s,s,s,s,s),s,s,s),B.Ln,A.bt("Made with ",s,s,s,s,s,s,s,A.bc(s,s,B.j,s,s,s,s,s,s,s,s,r,s,s,s,s,s,!0,s,s,s,s,s,s,s,s),s,s,s),B.CV,A.bt(" and Flutter by Himanshu Balani",s,s,s,s,s,s,s,A.bc(s,s,B.j,s,s,s,s,s,s,s,s,r,s,s,s,s,s,!0,s,s,s,s,s,s,s,s),s,s,s)],t.p),B.C,B.ay,B.bb),B.p,s,s,s,s,s,s,B.C5,s,s,s),B.Cb,B.AG,0,s),s)}}
 A.Dv.prototype={
-J(a){var s=null,r=A.X(a).ax.a===B.r,q=r?"En-lighten":"Darkseid",p=A.anr(r),o=A.bc(s,s,r?B.eC:B.x,s,s,s,s,s,s,s,s,12,s,s,B.t,s,s,!0,s,1,s,s,s,s,s,s),n=r?B.CO:B.CQ,m=r?B.eC:B.i,l=r?"Light Mode":"Dark Mode"
+J(a){var s=null,r=A.X(a).ax.a===B.r,q=r?"Dawn":"Dusk",p=A.anr(r),o=A.bc(s,s,r?B.eC:B.x,s,s,s,s,s,s,s,s,12,s,s,B.t,s,s,!0,s,1,s,s,s,s,s,s),n=r?B.CO:B.CQ,m=r?B.eC:B.i,l=r?"Light Mode":"Dark Mode"
 l=A.uY(n,m,new A.dd(r,t.gT),l,28)
 return A.uP(s,new A.et(A.bK(A.h2(A.a77(new A.ix(A.vE(1,-1,1),B.a7,!0,s,new A.t1(l,B.b5,new A.SZ(),s),s),p,q,o,s),s,s),56,56),s),B.aC,!1,s,s,s,s,s,s,s,s,s,s,s,s,s,new A.T_(r),s,s,s)}}
 A.T_.prototype={
